@@ -4,6 +4,22 @@ body{
     color: #666;
 }
 
+h1, h2
+    margin: 0;
+    colo:#333;   
+    font-size: 20px;
+h2{
+    font-size: 18px;
+}
+
+.left{
+    float: left
+}
+
+.right{
+    float: right
+}
+
 #total{
     width: 1000px;
     margin: auto;
@@ -16,6 +32,7 @@ body{
 #menu{
     background-color: #222;
     height: 40px;
+    
 }
 
 #menu a{
@@ -32,10 +49,32 @@ body{
 
 #logo{
     margin: 30px 0;
+    text-align: center;
 
 }
 
 #banner img{
     width: 100%;
+    
+}
+
+.texto1{
+    width:60%;
+}
+
+
+.texto2{
+    width:35%;
+    
+}
+
+
+.texto2 p{
+    font-style: italic;
+    colo: #999;
+    
+}
+
+#rodape{
     
 }
