@@ -71,10 +71,55 @@ h2{
 
 .texto2 p{
     font-style: italic;
-    colo: #999;
+    color: #999;
     
 }
 
 #rodape{
+   clear: both;
+    width: 1000px;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 0;
+    color: #999;  
+}
+#anucio {
+    width: 100%
+        backgrund-color:#ff8900;
+    color: #fff;
+    padding: 10px 0;
+    margin-bontton;30px;
+    text-align: center
+    display:nome 
     
+}
+
+
+
+@media screen and (max width: 640){
+    .texto1 , .texto2{
+        width:1000
+            {
+                #menu a {
+                    height: auto
+                }
+        }
+            
+    }
+    
+    #menu a{display: block;
+    border-bottom: solid 1px #ccc;
+    }
+    
+    #menu a:last-child{
+        border:nome;
+    }
+       
+}
+
+
+@midia screen and (min-width:641px) and (max-width:768px){
+    # anuncia {
+        display: block;
+    }
 }
